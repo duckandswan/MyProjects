@@ -12,7 +12,106 @@
 		E8C38C12208EB6BC00CCD07B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8C38C10208EB6BC00CCD07B /* Main.storyboard */; };
 		E8C38C14208EB6BC00CCD07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8C38C13208EB6BC00CCD07B /* Assets.xcassets */; };
 		E8C38C17208EB6BC00CCD07B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8C38C15208EB6BC00CCD07B /* LaunchScreen.storyboard */; };
+		E8F0D469208EDFB0003060A1 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D462208EDFAF003060A1 /* Tool.swift */; };
+		E8F0D46A208EDFB0003060A1 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D464208EDFAF003060A1 /* Array+Extension.swift */; };
+		E8F0D46B208EDFB0003060A1 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D465208EDFAF003060A1 /* CGPoint+Extensions.swift */; };
+		E8F0D46C208EDFB0003060A1 /* OtherExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D466208EDFAF003060A1 /* OtherExtension.swift */; };
+		E8F0D46D208EDFB0003060A1 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D467208EDFAF003060A1 /* UIColor+Extension.swift */; };
+		E8F0D46E208EDFB0003060A1 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D468208EDFAF003060A1 /* UIImage+Extension.swift */; };
+		E8F0D50B208EE30E003060A1 /* BTreeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D49A208EE30E003060A1 /* BTreeAnimation.swift */; };
+		E8F0D50C208EE30E003060A1 /* RBTreeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D49B208EE30E003060A1 /* RBTreeAnimation.swift */; };
+		E8F0D50D208EE30E003060A1 /* AlgorithmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D49D208EE30E003060A1 /* AlgorithmController.swift */; };
+		E8F0D50E208EE30E003060A1 /* Algorithms.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F0D49E208EE30E003060A1 /* Algorithms.storyboard */; };
+		E8F0D50F208EE30E003060A1 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D49F208EE30E003060A1 /* BViewController.swift */; };
+		E8F0D510208EE30F003060A1 /* RBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4A0208EE30E003060A1 /* RBViewController.swift */; };
+		E8F0D511208EE30F003060A1 /* BTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4A2208EE30E003060A1 /* BTree.swift */; };
+		E8F0D512208EE30F003060A1 /* FIFOQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4A3208EE30E003060A1 /* FIFOQueue.swift */; };
+		E8F0D513208EE30F003060A1 /* MyHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4A4208EE30E003060A1 /* MyHeap.swift */; };
+		E8F0D514208EE30F003060A1 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4A5208EE30E003060A1 /* QuickSort.swift */; };
+		E8F0D515208EE30F003060A1 /* RBTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4A6208EE30E003060A1 /* RBTree.swift */; };
+		E8F0D516208EE30F003060A1 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4A8208EE30E003060A1 /* Test.swift */; };
+		E8F0D517208EE30F003060A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4AA208EE30E003060A1 /* AppDelegate.swift */; };
+		E8F0D518208EE30F003060A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8F0D4AB208EE30E003060A1 /* Assets.xcassets */; };
+		E8F0D519208EE30F003060A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F0D4AC208EE30E003060A1 /* LaunchScreen.storyboard */; };
+		E8F0D51A208EE30F003060A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F0D4AE208EE30E003060A1 /* Main.storyboard */; };
+		E8F0D51B208EE30F003060A1 /* ConfirmCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4B1208EE30E003060A1 /* ConfirmCollectionView.swift */; };
+		E8F0D51C208EE30F003060A1 /* CutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4B2208EE30E003060A1 /* CutViewController.swift */; };
+		E8F0D51D208EE30F003060A1 /* DistributeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4B3208EE30E003060A1 /* DistributeController.swift */; };
+		E8F0D51E208EE30F003060A1 /* EditImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4B4208EE30E003060A1 /* EditImageViewController.swift */; };
+		E8F0D51F208EE30F003060A1 /* LabelCreateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4B5208EE30E003060A1 /* LabelCreateController.swift */; };
+		E8F0D520208EE30F003060A1 /* MySelectedImageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4B6208EE30E003060A1 /* MySelectedImageCollectionView.swift */; };
+		E8F0D521208EE30F003060A1 /* MyStickerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4B7208EE30E003060A1 /* MyStickerCollectionView.swift */; };
+		E8F0D522208EE30F003060A1 /* ShowAllImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4B8208EE30E003060A1 /* ShowAllImageController.swift */; };
+		E8F0D523208EE30F003060A1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8F0D4B9208EE30E003060A1 /* Info.plist */; };
+		E8F0D524208EE30F003060A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4BA208EE30E003060A1 /* ViewController.swift */; };
+		E8F0D525208EE30F003060A1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8F0D4BE208EE30E003060A1 /* Info.plist */; };
+		E8F0D526208EE30F003060A1 /* MyRefreshCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4C1208EE30E003060A1 /* MyRefreshCollectionView.swift */; };
+		E8F0D527208EE30F003060A1 /* MyWebImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4C2208EE30E003060A1 /* MyWebImageView.swift */; };
+		E8F0D528208EE30F003060A1 /* PhotoBrowsingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4C4208EE30E003060A1 /* PhotoBrowsingController.swift */; };
+		E8F0D529208EE30F003060A1 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4C6208EE30E003060A1 /* Extension.swift */; };
+		E8F0D52A208EE30F003060A1 /* ImageRecord+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4C9208EE30E003060A1 /* ImageRecord+CoreDataClass.swift */; };
+		E8F0D52B208EE30F003060A1 /* ImageRecord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4CA208EE30E003060A1 /* ImageRecord+CoreDataProperties.swift */; };
+		E8F0D52C208EE30F003060A1 /* InnerTagControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4CB208EE30E003060A1 /* InnerTagControlller.swift */; };
+		E8F0D52D208EE30F003060A1 /* InnerTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4CC208EE30E003060A1 /* InnerTopCell.swift */; };
+		E8F0D52E208EE30F003060A1 /* Life.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8F0D4CD208EE30E003060A1 /* Life.xcassets */; };
+		E8F0D52F208EE30F003060A1 /* LifeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4CE208EE30E003060A1 /* LifeCollectionViewCell.swift */; };
+		E8F0D530208EE30F003060A1 /* LifeCommonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4CF208EE30E003060A1 /* LifeCommonController.swift */; };
+		E8F0D531208EE30F003060A1 /* LifeInnerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4D0208EE30E003060A1 /* LifeInnerCell.swift */; };
+		E8F0D532208EE30F003060A1 /* LifeInnerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4D1208EE30E003060A1 /* LifeInnerController.swift */; };
+		E8F0D533208EE30F003060A1 /* LifeModelsAndUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4D2208EE30E003060A1 /* LifeModelsAndUtils.swift */; };
+		E8F0D534208EE30F003060A1 /* LifeNativeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4D3208EE30E003060A1 /* LifeNativeCollectionViewCell.swift */; };
+		E8F0D535208EE30F003060A1 /* LifeNativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4D4208EE30E003060A1 /* LifeNativeViewController.swift */; };
+		E8F0D536208EE30F003060A1 /* lifeViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8F0D4D5208EE30E003060A1 /* lifeViews.xib */; };
+		E8F0D537208EE30F003060A1 /* WaterFlowViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4D6208EE30E003060A1 /* WaterFlowViewLayout.swift */; };
+		E8F0D538208EE30F003060A1 /* LifeWaterFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4D7208EE30E003060A1 /* LifeWaterFlowViewController.swift */; };
+		E8F0D539208EE30F003060A1 /* MyCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4D8208EE30E003060A1 /* MyCoreDataStack.swift */; };
+		E8F0D53A208EE30F003060A1 /* MyImage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4D9208EE30E003060A1 /* MyImage.xcdatamodeld */; };
+		E8F0D53B208EE30F003060A1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8F0D4E0208EE30E003060A1 /* Info.plist */; };
+		E8F0D53C208EE30F003060A1 /* LifeControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4E1208EE30E003060A1 /* LifeControlTests.swift */; };
+		E8F0D53D208EE30F003060A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4E7208EE30E003060A1 /* AppDelegate.swift */; };
+		E8F0D53E208EE30F003060A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8F0D4E8208EE30E003060A1 /* Assets.xcassets */; };
+		E8F0D53F208EE30F003060A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F0D4E9208EE30E003060A1 /* LaunchScreen.storyboard */; };
+		E8F0D540208EE30F003060A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F0D4EB208EE30E003060A1 /* Main.storyboard */; };
+		E8F0D541208EE30F003060A1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8F0D4ED208EE30E003060A1 /* Info.plist */; };
+		E8F0D542208EE30F003060A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4EE208EE30E003060A1 /* ViewController.swift */; };
+		E8F0D543208EE30F003060A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4F0208EE30E003060A1 /* AppDelegate.swift */; };
+		E8F0D544208EE30F003060A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8F0D4F1208EE30E003060A1 /* Assets.xcassets */; };
+		E8F0D545208EE30F003060A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F0D4F2208EE30E003060A1 /* LaunchScreen.storyboard */; };
+		E8F0D546208EE30F003060A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F0D4F4208EE30E003060A1 /* Main.storyboard */; };
+		E8F0D547208EE30F003060A1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8F0D4F6208EE30E003060A1 /* Info.plist */; };
+		E8F0D548208EE30F003060A1 /* LinkGame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F0D4F8208EE30E003060A1 /* LinkGame.storyboard */; };
+		E8F0D549208EE30F003060A1 /* LinkGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4F9208EE30E003060A1 /* LinkGame.swift */; };
+		E8F0D54A208EE30F003060A1 /* LinkGameUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4FA208EE30E003060A1 /* LinkGameUtils.swift */; };
+		E8F0D54B208EE30F003060A1 /* MatchGame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F0D4FD208EE30E003060A1 /* MatchGame.storyboard */; };
+		E8F0D54C208EE30F003060A1 /* MatchGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D4FE208EE30E003060A1 /* MatchGame.swift */; };
+		E8F0D54D208EE30F003060A1 /* MatchGame.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8F0D4FF208EE30E003060A1 /* MatchGame.xcassets */; };
+		E8F0D54E208EE30F003060A1 /* MatchGameTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D500208EE30E003060A1 /* MatchGameTool.swift */; };
+		E8F0D54F208EE30F003060A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0D501208EE30E003060A1 /* ViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8F0D504208EE30E003060A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8F0D4DC208EE30E003060A1 /* LifeControl.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E80DEF161E29CC7A0041EADB;
+			remoteInfo = LifeControl;
+		};
+		E8F0D506208EE30E003060A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8F0D4DC208EE30E003060A1 /* LifeControl.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E80DEF1F1E29CC7B0041EADB;
+			remoteInfo = LifeControlTests;
+		};
+		E8F0D509208EE30E003060A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8F0D4E2208EE30E003060A1 /* MyPinterest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E44F93351DE3D498007E0805;
+			remoteInfo = MyPinterest;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E8C38C09208EB6BC00CCD07B /* MyProjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +121,84 @@
 		E8C38C13208EB6BC00CCD07B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8C38C16208EB6BC00CCD07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8C38C18208EB6BC00CCD07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F0D462208EDFAF003060A1 /* Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		E8F0D464208EDFAF003060A1 /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		E8F0D465208EDFAF003060A1 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		E8F0D466208EDFAF003060A1 /* OtherExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherExtension.swift; sourceTree = "<group>"; };
+		E8F0D467208EDFAF003060A1 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		E8F0D468208EDFAF003060A1 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		E8F0D49A208EE30E003060A1 /* BTreeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTreeAnimation.swift; sourceTree = "<group>"; };
+		E8F0D49B208EE30E003060A1 /* RBTreeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBTreeAnimation.swift; sourceTree = "<group>"; };
+		E8F0D49D208EE30E003060A1 /* AlgorithmController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmController.swift; sourceTree = "<group>"; };
+		E8F0D49E208EE30E003060A1 /* Algorithms.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Algorithms.storyboard; sourceTree = "<group>"; };
+		E8F0D49F208EE30E003060A1 /* BViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
+		E8F0D4A0208EE30E003060A1 /* RBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBViewController.swift; sourceTree = "<group>"; };
+		E8F0D4A2208EE30E003060A1 /* BTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTree.swift; sourceTree = "<group>"; };
+		E8F0D4A3208EE30E003060A1 /* FIFOQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIFOQueue.swift; sourceTree = "<group>"; };
+		E8F0D4A4208EE30E003060A1 /* MyHeap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHeap.swift; sourceTree = "<group>"; };
+		E8F0D4A5208EE30E003060A1 /* QuickSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		E8F0D4A6208EE30E003060A1 /* RBTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBTree.swift; sourceTree = "<group>"; };
+		E8F0D4A8208EE30E003060A1 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		E8F0D4AA208EE30E003060A1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8F0D4AB208EE30E003060A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8F0D4AD208EE30E003060A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8F0D4AF208EE30E003060A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8F0D4B1208EE30E003060A1 /* ConfirmCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmCollectionView.swift; sourceTree = "<group>"; };
+		E8F0D4B2208EE30E003060A1 /* CutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CutViewController.swift; sourceTree = "<group>"; };
+		E8F0D4B3208EE30E003060A1 /* DistributeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistributeController.swift; sourceTree = "<group>"; };
+		E8F0D4B4208EE30E003060A1 /* EditImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditImageViewController.swift; sourceTree = "<group>"; };
+		E8F0D4B5208EE30E003060A1 /* LabelCreateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelCreateController.swift; sourceTree = "<group>"; };
+		E8F0D4B6208EE30E003060A1 /* MySelectedImageCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySelectedImageCollectionView.swift; sourceTree = "<group>"; };
+		E8F0D4B7208EE30E003060A1 /* MyStickerCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStickerCollectionView.swift; sourceTree = "<group>"; };
+		E8F0D4B8208EE30E003060A1 /* ShowAllImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowAllImageController.swift; sourceTree = "<group>"; };
+		E8F0D4B9208EE30E003060A1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F0D4BA208EE30E003060A1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8F0D4BE208EE30E003060A1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F0D4C1208EE30E003060A1 /* MyRefreshCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRefreshCollectionView.swift; sourceTree = "<group>"; };
+		E8F0D4C2208EE30E003060A1 /* MyWebImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWebImageView.swift; sourceTree = "<group>"; };
+		E8F0D4C4208EE30E003060A1 /* PhotoBrowsingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBrowsingController.swift; sourceTree = "<group>"; };
+		E8F0D4C6208EE30E003060A1 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		E8F0D4C9208EE30E003060A1 /* ImageRecord+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageRecord+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E8F0D4CA208EE30E003060A1 /* ImageRecord+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageRecord+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E8F0D4CB208EE30E003060A1 /* InnerTagControlller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnerTagControlller.swift; sourceTree = "<group>"; };
+		E8F0D4CC208EE30E003060A1 /* InnerTopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnerTopCell.swift; sourceTree = "<group>"; };
+		E8F0D4CD208EE30E003060A1 /* Life.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Life.xcassets; sourceTree = "<group>"; };
+		E8F0D4CE208EE30E003060A1 /* LifeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeCollectionViewCell.swift; sourceTree = "<group>"; };
+		E8F0D4CF208EE30E003060A1 /* LifeCommonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeCommonController.swift; sourceTree = "<group>"; };
+		E8F0D4D0208EE30E003060A1 /* LifeInnerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeInnerCell.swift; sourceTree = "<group>"; };
+		E8F0D4D1208EE30E003060A1 /* LifeInnerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeInnerController.swift; sourceTree = "<group>"; };
+		E8F0D4D2208EE30E003060A1 /* LifeModelsAndUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeModelsAndUtils.swift; sourceTree = "<group>"; };
+		E8F0D4D3208EE30E003060A1 /* LifeNativeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeNativeCollectionViewCell.swift; sourceTree = "<group>"; };
+		E8F0D4D4208EE30E003060A1 /* LifeNativeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeNativeViewController.swift; sourceTree = "<group>"; };
+		E8F0D4D5208EE30E003060A1 /* lifeViews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = lifeViews.xib; sourceTree = "<group>"; };
+		E8F0D4D6208EE30E003060A1 /* WaterFlowViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterFlowViewLayout.swift; sourceTree = "<group>"; };
+		E8F0D4D7208EE30E003060A1 /* LifeWaterFlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeWaterFlowViewController.swift; sourceTree = "<group>"; };
+		E8F0D4D8208EE30E003060A1 /* MyCoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCoreDataStack.swift; sourceTree = "<group>"; };
+		E8F0D4DA208EE30E003060A1 /* MyImage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyImage.xcdatamodel; sourceTree = "<group>"; };
+		E8F0D4DB208EE30E003060A1 /* LifeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeControl.h; sourceTree = "<group>"; };
+		E8F0D4DC208EE30E003060A1 /* LifeControl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LifeControl.xcodeproj; sourceTree = "<group>"; };
+		E8F0D4E0208EE30E003060A1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F0D4E1208EE30E003060A1 /* LifeControlTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeControlTests.swift; sourceTree = "<group>"; };
+		E8F0D4E2208EE30E003060A1 /* MyPinterest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MyPinterest.xcodeproj; sourceTree = "<group>"; };
+		E8F0D4E7208EE30E003060A1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8F0D4E8208EE30E003060A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8F0D4EA208EE30E003060A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8F0D4EC208EE30E003060A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8F0D4ED208EE30E003060A1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F0D4EE208EE30E003060A1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8F0D4F0208EE30E003060A1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8F0D4F1208EE30E003060A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8F0D4F3208EE30E003060A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8F0D4F5208EE30E003060A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8F0D4F6208EE30E003060A1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F0D4F8208EE30E003060A1 /* LinkGame.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LinkGame.storyboard; sourceTree = "<group>"; };
+		E8F0D4F9208EE30E003060A1 /* LinkGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkGame.swift; sourceTree = "<group>"; };
+		E8F0D4FA208EE30E003060A1 /* LinkGameUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkGameUtils.swift; sourceTree = "<group>"; };
+		E8F0D4FD208EE30E003060A1 /* MatchGame.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MatchGame.storyboard; sourceTree = "<group>"; };
+		E8F0D4FE208EE30E003060A1 /* MatchGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchGame.swift; sourceTree = "<group>"; };
+		E8F0D4FF208EE30E003060A1 /* MatchGame.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MatchGame.xcassets; sourceTree = "<group>"; };
+		E8F0D500208EE30E003060A1 /* MatchGameTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchGameTool.swift; sourceTree = "<group>"; };
+		E8F0D501208EE30E003060A1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +231,9 @@
 		E8C38C0B208EB6BC00CCD07B /* MyProjects */ = {
 			isa = PBXGroup;
 			children = (
+				E8F0D497208EE30E003060A1 /* ProjectCollection */,
+				E8F0D463208EDFAF003060A1 /* Extension */,
+				E8F0D461208EDFAF003060A1 /* Tool */,
 				E8C38C0C208EB6BC00CCD07B /* AppDelegate.swift */,
 				E8C38C0E208EB6BC00CCD07B /* ViewController.swift */,
 				E8C38C10208EB6BC00CCD07B /* Main.storyboard */,
@@ -62,6 +242,298 @@
 				E8C38C18208EB6BC00CCD07B /* Info.plist */,
 			);
 			path = MyProjects;
+			sourceTree = "<group>";
+		};
+		E8F0D461208EDFAF003060A1 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D462208EDFAF003060A1 /* Tool.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		E8F0D463208EDFAF003060A1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D464208EDFAF003060A1 /* Array+Extension.swift */,
+				E8F0D465208EDFAF003060A1 /* CGPoint+Extensions.swift */,
+				E8F0D466208EDFAF003060A1 /* OtherExtension.swift */,
+				E8F0D467208EDFAF003060A1 /* UIColor+Extension.swift */,
+				E8F0D468208EDFAF003060A1 /* UIImage+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E8F0D497208EE30E003060A1 /* ProjectCollection */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D498208EE30E003060A1 /* Algorithm */,
+				E8F0D4A9208EE30E003060A1 /* CreativeImages */,
+				E8F0D4BB208EE30E003060A1 /* MyPinterest */,
+				E8F0D4EF208EE30E003060A1 /* MyGames */,
+			);
+			path = ProjectCollection;
+			sourceTree = "<group>";
+		};
+		E8F0D498208EE30E003060A1 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D499208EE30E003060A1 /* Animation */,
+				E8F0D49C208EE30E003060A1 /* Controller */,
+				E8F0D4A1208EE30E003060A1 /* DataStructure */,
+				E8F0D4A7208EE30E003060A1 /* Test */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		E8F0D499208EE30E003060A1 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D49A208EE30E003060A1 /* BTreeAnimation.swift */,
+				E8F0D49B208EE30E003060A1 /* RBTreeAnimation.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		E8F0D49C208EE30E003060A1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D49D208EE30E003060A1 /* AlgorithmController.swift */,
+				E8F0D49E208EE30E003060A1 /* Algorithms.storyboard */,
+				E8F0D49F208EE30E003060A1 /* BViewController.swift */,
+				E8F0D4A0208EE30E003060A1 /* RBViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E8F0D4A1208EE30E003060A1 /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D4A2208EE30E003060A1 /* BTree.swift */,
+				E8F0D4A3208EE30E003060A1 /* FIFOQueue.swift */,
+				E8F0D4A4208EE30E003060A1 /* MyHeap.swift */,
+				E8F0D4A5208EE30E003060A1 /* QuickSort.swift */,
+				E8F0D4A6208EE30E003060A1 /* RBTree.swift */,
+			);
+			path = DataStructure;
+			sourceTree = "<group>";
+		};
+		E8F0D4A7208EE30E003060A1 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D4A8208EE30E003060A1 /* Test.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		E8F0D4A9208EE30E003060A1 /* CreativeImages */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D4AA208EE30E003060A1 /* AppDelegate.swift */,
+				E8F0D4AB208EE30E003060A1 /* Assets.xcassets */,
+				E8F0D4AC208EE30E003060A1 /* LaunchScreen.storyboard */,
+				E8F0D4AE208EE30E003060A1 /* Main.storyboard */,
+				E8F0D4B0208EE30E003060A1 /* ImageProcessing */,
+				E8F0D4B9208EE30E003060A1 /* Info.plist */,
+				E8F0D4BA208EE30E003060A1 /* ViewController.swift */,
+			);
+			path = CreativeImages;
+			sourceTree = "<group>";
+		};
+		E8F0D4B0208EE30E003060A1 /* ImageProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D4B1208EE30E003060A1 /* ConfirmCollectionView.swift */,
+				E8F0D4B2208EE30E003060A1 /* CutViewController.swift */,
+				E8F0D4B3208EE30E003060A1 /* DistributeController.swift */,
+				E8F0D4B4208EE30E003060A1 /* EditImageViewController.swift */,
+				E8F0D4B5208EE30E003060A1 /* LabelCreateController.swift */,
+				E8F0D4B6208EE30E003060A1 /* MySelectedImageCollectionView.swift */,
+				E8F0D4B7208EE30E003060A1 /* MyStickerCollectionView.swift */,
+				E8F0D4B8208EE30E003060A1 /* ShowAllImageController.swift */,
+			);
+			path = ImageProcessing;
+			sourceTree = "<group>";
+		};
+		E8F0D4BB208EE30E003060A1 /* MyPinterest */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D4BC208EE30E003060A1 /* LifeControl */,
+				E8F0D4E2208EE30E003060A1 /* MyPinterest.xcodeproj */,
+				E8F0D4E6208EE30E003060A1 /* Pinterest */,
+			);
+			path = MyPinterest;
+			sourceTree = "<group>";
+		};
+		E8F0D4BC208EE30E003060A1 /* LifeControl */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D4BD208EE30E003060A1 /* LifeControl */,
+				E8F0D4DC208EE30E003060A1 /* LifeControl.xcodeproj */,
+				E8F0D4DF208EE30E003060A1 /* LifeControlTests */,
+			);
+			path = LifeControl;
+			sourceTree = "<group>";
+		};
+		E8F0D4BD208EE30E003060A1 /* LifeControl */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D4BE208EE30E003060A1 /* Info.plist */,
+				E8F0D4BF208EE30E003060A1 /* Life */,
+				E8F0D4DB208EE30E003060A1 /* LifeControl.h */,
+			);
+			path = LifeControl;
+			sourceTree = "<group>";
+		};
+		E8F0D4BF208EE30E003060A1 /* Life */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D4C0208EE30E003060A1 /* Custom */,
+				E8F0D4C5208EE30E003060A1 /* Extension */,
+				E8F0D4C7208EE30E003060A1 /* LifeCategory */,
+				E8F0D4C8208EE30E003060A1 /* LifeNative */,
+				E8F0D4D7208EE30E003060A1 /* LifeWaterFlowViewController.swift */,
+				E8F0D4D8208EE30E003060A1 /* MyCoreDataStack.swift */,
+				E8F0D4D9208EE30E003060A1 /* MyImage.xcdatamodeld */,
+			);
+			path = Life;
+			sourceTree = "<group>";
+		};
+		E8F0D4C0208EE30E003060A1 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D4C1208EE30E003060A1 /* MyRefreshCollectionView.swift */,
+				E8F0D4C2208EE30E003060A1 /* MyWebImageView.swift */,
+				E8F0D4C3208EE30E003060A1 /* PhotoBrowsing */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		E8F0D4C3208EE30E003060A1 /* PhotoBrowsing */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D4C4208EE30E003060A1 /* PhotoBrowsingController.swift */,
+			);
+			path = PhotoBrowsing;
+			sourceTree = "<group>";
+		};
+		E8F0D4C5208EE30E003060A1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D4C6208EE30E003060A1 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E8F0D4C7208EE30E003060A1 /* LifeCategory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LifeCategory;
+			sourceTree = "<group>";
+		};
+		E8F0D4C8208EE30E003060A1 /* LifeNative */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D4C9208EE30E003060A1 /* ImageRecord+CoreDataClass.swift */,
+				E8F0D4CA208EE30E003060A1 /* ImageRecord+CoreDataProperties.swift */,
+				E8F0D4CB208EE30E003060A1 /* InnerTagControlller.swift */,
+				E8F0D4CC208EE30E003060A1 /* InnerTopCell.swift */,
+				E8F0D4CD208EE30E003060A1 /* Life.xcassets */,
+				E8F0D4CE208EE30E003060A1 /* LifeCollectionViewCell.swift */,
+				E8F0D4CF208EE30E003060A1 /* LifeCommonController.swift */,
+				E8F0D4D0208EE30E003060A1 /* LifeInnerCell.swift */,
+				E8F0D4D1208EE30E003060A1 /* LifeInnerController.swift */,
+				E8F0D4D2208EE30E003060A1 /* LifeModelsAndUtils.swift */,
+				E8F0D4D3208EE30E003060A1 /* LifeNativeCollectionViewCell.swift */,
+				E8F0D4D4208EE30E003060A1 /* LifeNativeViewController.swift */,
+				E8F0D4D5208EE30E003060A1 /* lifeViews.xib */,
+				E8F0D4D6208EE30E003060A1 /* WaterFlowViewLayout.swift */,
+			);
+			path = LifeNative;
+			sourceTree = "<group>";
+		};
+		E8F0D4DD208EE30E003060A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D505208EE30E003060A1 /* LifeControl.framework */,
+				E8F0D507208EE30E003060A1 /* LifeControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8F0D4DF208EE30E003060A1 /* LifeControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D4E0208EE30E003060A1 /* Info.plist */,
+				E8F0D4E1208EE30E003060A1 /* LifeControlTests.swift */,
+			);
+			path = LifeControlTests;
+			sourceTree = "<group>";
+		};
+		E8F0D4E3208EE30E003060A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D50A208EE30E003060A1 /* MyPinterest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8F0D4E6208EE30E003060A1 /* Pinterest */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D4E7208EE30E003060A1 /* AppDelegate.swift */,
+				E8F0D4E8208EE30E003060A1 /* Assets.xcassets */,
+				E8F0D4E9208EE30E003060A1 /* LaunchScreen.storyboard */,
+				E8F0D4EB208EE30E003060A1 /* Main.storyboard */,
+				E8F0D4ED208EE30E003060A1 /* Info.plist */,
+				E8F0D4EE208EE30E003060A1 /* ViewController.swift */,
+			);
+			path = Pinterest;
+			sourceTree = "<group>";
+		};
+		E8F0D4EF208EE30E003060A1 /* MyGames */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D4F0208EE30E003060A1 /* AppDelegate.swift */,
+				E8F0D4F1208EE30E003060A1 /* Assets.xcassets */,
+				E8F0D4F2208EE30E003060A1 /* LaunchScreen.storyboard */,
+				E8F0D4F4208EE30E003060A1 /* Main.storyboard */,
+				E8F0D4F6208EE30E003060A1 /* Info.plist */,
+				E8F0D4F7208EE30E003060A1 /* LinkGame */,
+				E8F0D4FB208EE30E003060A1 /* MatchGame */,
+				E8F0D501208EE30E003060A1 /* ViewController.swift */,
+			);
+			path = MyGames;
+			sourceTree = "<group>";
+		};
+		E8F0D4F7208EE30E003060A1 /* LinkGame */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D4F8208EE30E003060A1 /* LinkGame.storyboard */,
+				E8F0D4F9208EE30E003060A1 /* LinkGame.swift */,
+				E8F0D4FA208EE30E003060A1 /* LinkGameUtils.swift */,
+			);
+			path = LinkGame;
+			sourceTree = "<group>";
+		};
+		E8F0D4FB208EE30E003060A1 /* MatchGame */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0D4FC208EE30E003060A1 /* images */,
+				E8F0D4FD208EE30E003060A1 /* MatchGame.storyboard */,
+				E8F0D4FE208EE30E003060A1 /* MatchGame.swift */,
+				E8F0D4FF208EE30E003060A1 /* MatchGame.xcassets */,
+				E8F0D500208EE30E003060A1 /* MatchGameTool.swift */,
+			);
+			path = MatchGame;
+			sourceTree = "<group>";
+		};
+		E8F0D4FC208EE30E003060A1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +583,16 @@
 			mainGroup = E8C38C00208EB6BB00CCD07B;
 			productRefGroup = E8C38C0A208EB6BC00CCD07B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E8F0D4DD208EE30E003060A1 /* Products */;
+					ProjectRef = E8F0D4DC208EE30E003060A1 /* LifeControl.xcodeproj */;
+				},
+				{
+					ProductGroup = E8F0D4E3208EE30E003060A1 /* Products */;
+					ProjectRef = E8F0D4E2208EE30E003060A1 /* MyPinterest.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E8C38C08208EB6BC00CCD07B /* MyProjects */,
@@ -118,14 +600,58 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		E8F0D505208EE30E003060A1 /* LifeControl.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LifeControl.framework;
+			remoteRef = E8F0D504208EE30E003060A1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E8F0D507208EE30E003060A1 /* LifeControlTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LifeControlTests.xctest;
+			remoteRef = E8F0D506208EE30E003060A1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E8F0D50A208EE30E003060A1 /* MyPinterest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MyPinterest.app;
+			remoteRef = E8F0D509208EE30E003060A1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		E8C38C07208EB6BC00CCD07B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F0D541208EE30F003060A1 /* Info.plist in Resources */,
+				E8F0D523208EE30F003060A1 /* Info.plist in Resources */,
+				E8F0D54B208EE30F003060A1 /* MatchGame.storyboard in Resources */,
+				E8F0D51A208EE30F003060A1 /* Main.storyboard in Resources */,
+				E8F0D525208EE30F003060A1 /* Info.plist in Resources */,
+				E8F0D536208EE30F003060A1 /* lifeViews.xib in Resources */,
 				E8C38C17208EB6BC00CCD07B /* LaunchScreen.storyboard in Resources */,
+				E8F0D54D208EE30F003060A1 /* MatchGame.xcassets in Resources */,
+				E8F0D544208EE30F003060A1 /* Assets.xcassets in Resources */,
 				E8C38C14208EB6BC00CCD07B /* Assets.xcassets in Resources */,
+				E8F0D547208EE30F003060A1 /* Info.plist in Resources */,
+				E8F0D540208EE30F003060A1 /* Main.storyboard in Resources */,
+				E8F0D545208EE30F003060A1 /* LaunchScreen.storyboard in Resources */,
+				E8F0D53E208EE30F003060A1 /* Assets.xcassets in Resources */,
+				E8F0D50E208EE30E003060A1 /* Algorithms.storyboard in Resources */,
+				E8F0D519208EE30F003060A1 /* LaunchScreen.storyboard in Resources */,
+				E8F0D53B208EE30F003060A1 /* Info.plist in Resources */,
 				E8C38C12208EB6BC00CCD07B /* Main.storyboard in Resources */,
+				E8F0D53F208EE30F003060A1 /* LaunchScreen.storyboard in Resources */,
+				E8F0D548208EE30F003060A1 /* LinkGame.storyboard in Resources */,
+				E8F0D518208EE30F003060A1 /* Assets.xcassets in Resources */,
+				E8F0D546208EE30F003060A1 /* Main.storyboard in Resources */,
+				E8F0D52E208EE30F003060A1 /* Life.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +662,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F0D511208EE30F003060A1 /* BTree.swift in Sources */,
+				E8F0D533208EE30F003060A1 /* LifeModelsAndUtils.swift in Sources */,
+				E8F0D520208EE30F003060A1 /* MySelectedImageCollectionView.swift in Sources */,
 				E8C38C0F208EB6BC00CCD07B /* ViewController.swift in Sources */,
+				E8F0D50F208EE30E003060A1 /* BViewController.swift in Sources */,
+				E8F0D52C208EE30F003060A1 /* InnerTagControlller.swift in Sources */,
+				E8F0D510208EE30F003060A1 /* RBViewController.swift in Sources */,
+				E8F0D516208EE30F003060A1 /* Test.swift in Sources */,
+				E8F0D543208EE30F003060A1 /* AppDelegate.swift in Sources */,
+				E8F0D52B208EE30F003060A1 /* ImageRecord+CoreDataProperties.swift in Sources */,
+				E8F0D542208EE30F003060A1 /* ViewController.swift in Sources */,
+				E8F0D530208EE30F003060A1 /* LifeCommonController.swift in Sources */,
+				E8F0D52A208EE30F003060A1 /* ImageRecord+CoreDataClass.swift in Sources */,
+				E8F0D537208EE30F003060A1 /* WaterFlowViewLayout.swift in Sources */,
+				E8F0D538208EE30F003060A1 /* LifeWaterFlowViewController.swift in Sources */,
+				E8F0D531208EE30F003060A1 /* LifeInnerCell.swift in Sources */,
+				E8F0D54C208EE30F003060A1 /* MatchGame.swift in Sources */,
+				E8F0D512208EE30F003060A1 /* FIFOQueue.swift in Sources */,
+				E8F0D54A208EE30F003060A1 /* LinkGameUtils.swift in Sources */,
+				E8F0D51F208EE30F003060A1 /* LabelCreateController.swift in Sources */,
+				E8F0D526208EE30F003060A1 /* MyRefreshCollectionView.swift in Sources */,
+				E8F0D532208EE30F003060A1 /* LifeInnerController.swift in Sources */,
+				E8F0D50D208EE30E003060A1 /* AlgorithmController.swift in Sources */,
+				E8F0D46B208EDFB0003060A1 /* CGPoint+Extensions.swift in Sources */,
+				E8F0D51E208EE30F003060A1 /* EditImageViewController.swift in Sources */,
+				E8F0D53A208EE30F003060A1 /* MyImage.xcdatamodeld in Sources */,
+				E8F0D517208EE30F003060A1 /* AppDelegate.swift in Sources */,
+				E8F0D51D208EE30F003060A1 /* DistributeController.swift in Sources */,
+				E8F0D46D208EDFB0003060A1 /* UIColor+Extension.swift in Sources */,
+				E8F0D52F208EE30F003060A1 /* LifeCollectionViewCell.swift in Sources */,
+				E8F0D529208EE30F003060A1 /* Extension.swift in Sources */,
+				E8F0D469208EDFB0003060A1 /* Tool.swift in Sources */,
+				E8F0D50B208EE30E003060A1 /* BTreeAnimation.swift in Sources */,
+				E8F0D539208EE30F003060A1 /* MyCoreDataStack.swift in Sources */,
+				E8F0D528208EE30F003060A1 /* PhotoBrowsingController.swift in Sources */,
+				E8F0D535208EE30F003060A1 /* LifeNativeViewController.swift in Sources */,
+				E8F0D46A208EDFB0003060A1 /* Array+Extension.swift in Sources */,
+				E8F0D527208EE30F003060A1 /* MyWebImageView.swift in Sources */,
+				E8F0D51B208EE30F003060A1 /* ConfirmCollectionView.swift in Sources */,
+				E8F0D54F208EE30F003060A1 /* ViewController.swift in Sources */,
+				E8F0D513208EE30F003060A1 /* MyHeap.swift in Sources */,
+				E8F0D51C208EE30F003060A1 /* CutViewController.swift in Sources */,
+				E8F0D524208EE30F003060A1 /* ViewController.swift in Sources */,
+				E8F0D53D208EE30F003060A1 /* AppDelegate.swift in Sources */,
+				E8F0D534208EE30F003060A1 /* LifeNativeCollectionViewCell.swift in Sources */,
+				E8F0D53C208EE30F003060A1 /* LifeControlTests.swift in Sources */,
+				E8F0D521208EE30F003060A1 /* MyStickerCollectionView.swift in Sources */,
+				E8F0D52D208EE30F003060A1 /* InnerTopCell.swift in Sources */,
+				E8F0D549208EE30F003060A1 /* LinkGame.swift in Sources */,
+				E8F0D50C208EE30E003060A1 /* RBTreeAnimation.swift in Sources */,
+				E8F0D515208EE30F003060A1 /* RBTree.swift in Sources */,
+				E8F0D46C208EDFB0003060A1 /* OtherExtension.swift in Sources */,
+				E8F0D54E208EE30F003060A1 /* MatchGameTool.swift in Sources */,
+				E8F0D522208EE30F003060A1 /* ShowAllImageController.swift in Sources */,
+				E8F0D514208EE30F003060A1 /* QuickSort.swift in Sources */,
+				E8F0D46E208EDFB0003060A1 /* UIImage+Extension.swift in Sources */,
 				E8C38C0D208EB6BC00CCD07B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,6 +739,54 @@
 				E8C38C16208EB6BC00CCD07B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E8F0D4AC208EE30E003060A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8F0D4AD208EE30E003060A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E8F0D4AE208EE30E003060A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8F0D4AF208EE30E003060A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8F0D4E9208EE30E003060A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8F0D4EA208EE30E003060A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E8F0D4EB208EE30E003060A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8F0D4EC208EE30E003060A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8F0D4F2208EE30E003060A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8F0D4F3208EE30E003060A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E8F0D4F4208EE30E003060A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8F0D4F5208EE30E003060A1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -322,6 +951,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E8F0D4D9208EE30E003060A1 /* MyImage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E8F0D4DA208EE30E003060A1 /* MyImage.xcdatamodel */,
+			);
+			currentVersion = E8F0D4DA208EE30E003060A1 /* MyImage.xcdatamodel */;
+			path = MyImage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E8C38C01208EB6BB00CCD07B /* Project object */;
 }

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DSQ-Iy-OH7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Link Game-->
+        <scene sceneID="j24-8S-kfe">
+            <objects>
+                <viewController storyboardIdentifier="LinkGame" id="DSQ-Iy-OH7" customClass="LinkGame" customModule="MyWorks" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CsA-1J-6L3"/>
+                        <viewControllerLayoutGuide type="bottom" id="z5h-xf-uCw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ikc-nU-Cuh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lJW-ve-Xoi" customClass="LinkGameView" customModule="MyWorks" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="146" width="375" height="375"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="lJW-ve-Xoi" secondAttribute="height" multiplier="1:1" id="6Ed-37-Yhi"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zap-ry-6p6">
+                                <rect key="frame" x="153.5" y="531" width="68" height="36"/>
+                                <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="17"/>
+                                <state key="normal" title="重新开始"/>
+                                <connections>
+                                    <action selector="restart" destination="DSQ-Iy-OH7" eventType="touchUpInside" id="xvh-SQ-JiX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lJW-ve-Xoi" firstAttribute="centerY" secondItem="ikc-nU-Cuh" secondAttribute="centerY" id="DyQ-Xy-HcG"/>
+                            <constraint firstItem="Zap-ry-6p6" firstAttribute="top" secondItem="lJW-ve-Xoi" secondAttribute="bottom" constant="10" id="IdZ-bB-Nd9"/>
+                            <constraint firstItem="lJW-ve-Xoi" firstAttribute="leading" secondItem="ikc-nU-Cuh" secondAttribute="leading" id="LtX-Pd-PB4"/>
+                            <constraint firstItem="Zap-ry-6p6" firstAttribute="centerX" secondItem="ikc-nU-Cuh" secondAttribute="centerX" id="Ows-gr-DsI"/>
+                            <constraint firstAttribute="trailing" secondItem="lJW-ve-Xoi" secondAttribute="trailing" id="Um1-p9-dfv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="gameView" destination="lJW-ve-Xoi" id="3D1-eO-fMe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="44F-gX-mFi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="154" y="-188"/>
+        </scene>
+    </scenes>
+</document>
